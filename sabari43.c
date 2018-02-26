@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include<string.h>
-int main(void) 
+#include<conio.h>
+int main()
 {
 	char str1[50],str2[50];
 	int n1,n2;
@@ -22,5 +22,6 @@ int main(void)
 	{
 		printf("\n %s",str2);
 	}
+	getch()
 	return 0;
 }
